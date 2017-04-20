@@ -1,3 +1,1 @@
-"mon premier fichier sous Git" 
-"mon fichier modifi‚" 
-"mon fichier am‚lior‚modifi‚" 
+testGit.txt
