@@ -1,4 +1,4 @@
-var  myObj, x, txt = "", map;
+﻿var  myObj, x, txt = "", map;
 		var monSet= new Set();
 		var valopt, option;
 		
@@ -7,6 +7,7 @@ var  myObj, x, txt = "", map;
 		function rafraichirListe(cat,fchoix,idd,monchoix){
 			var str=document.getElementById("catchoix").value.toUpperCase();
 			var xmlhttp = new XMLHttpRequest();
+			
 			xmlhttp.onreadystatechange = function() {
 			    if (this.readyState == 4 && this.status == 200) {
 			        myObj = JSON.parse(this.responseText);
