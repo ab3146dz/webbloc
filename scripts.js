@@ -1,7 +1,7 @@
 var  myObj, x, txt = "", map;
 		var monSet= new Set();
 		var valopt, option;
-		rafraichirListe(true,'choixC','c0','monchoix1');
+		
 		
 
 		function rafraichirListe(cat,fchoix,idd,monchoix){
@@ -174,3 +174,5 @@ var  myObj, x, txt = "", map;
 		function initMap() {
 		  
 		}
+
+		rafraichirListe(true,'choixC','c0','monchoix1');
